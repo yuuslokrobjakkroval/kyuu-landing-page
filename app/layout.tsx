@@ -25,11 +25,11 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Mikolaj Dobrucki",
-      url: "https://mikolajdobrucki.com",
+      name: "KYUU",
+      url: "https://github.com/yuuslokrobjakkroval",
     },
   ],
-  creator: "mikolajdobrucki",
+  creator: "yuuslokrobjakkroval",
   openGraph: {
     type: "website",
     locale: "en_US",

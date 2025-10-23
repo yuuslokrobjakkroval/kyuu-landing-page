@@ -41,8 +41,8 @@ interface NavbarProps {
 }
 
 export default function Navbar({
-  logo = <LaunchUI />,
-  name = "Launch UI",
+  // logo = <LaunchUI />,
+  name = "PEACHY",
   homeUrl = siteConfig.url,
   mobileLinks = [
     { text: "Getting Started", href: siteConfig.url },
@@ -50,10 +50,10 @@ export default function Navbar({
     { text: "Documentation", href: siteConfig.url },
   ],
   actions = [
-    { text: "Sign in", href: siteConfig.url, isButton: false },
+    // { text: "Sign in", href: siteConfig.url, isButton: false },
     {
       text: "Get Started",
-      href: siteConfig.url,
+      href: siteConfig.getStartedUrl,
       isButton: true,
       variant: "default",
     },
@@ -72,7 +72,7 @@ export default function Navbar({
               href={homeUrl}
               className="flex items-center gap-2 text-xl font-bold"
             >
-              {logo}
+              {/* {logo} */}
               {name}
             </a>
             {showNavigation && (customNavigation || <Navigation />)}

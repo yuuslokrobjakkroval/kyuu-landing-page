@@ -1,18 +1,18 @@
 export const siteConfig = {
-  name: "Launch UI",
-  url: "https://launchuicomponents.com",
-  getStartedUrl:
-    "https://launchuicomponents.com/docs/getting-started/introduction",
+  name: "KYUU",
+  url: "https://peachyganggg.com",
+  docsUrl: "https://docs.peachyganggg.com",
+  getStartedUrl: "https://peachyganggg.com/en/login",
   ogImage: "https://launchuicomponents.com/og.jpg",
   description:
     "Landing page components built with React, Shadcn/ui and Tailwind that will make your website feel premium.",
   links: {
-    twitter: "https://twitter.com/mikolajdobrucki",
-    github: "https://github.com/launch-ui/launch-ui",
-    email: "mailto:contact@mikolajdobrucki.com",
+    twitter: "https://twitter.com/yuuslokrobjakkroval",
+    github: "https://github.com/yuuslokrobjakkroval",
+    email: "mailto:contact@yuuslokrobjakkroval.com",
   },
   pricing: {
-    pro: "https://launchui.lemonsqueezy.com/buy/b4798c68-c858-4c34-860b-069b5a0d6c4e",
+    pro: "https://kyuu.lemonsqueezy.com/buy/c9bb3db7-8ebe-46a5-9e9c-6de3cd3fe17e",
     team: "https://launchui.lemonsqueezy.com/buy/130d8cfe-e123-464b-9f67-c74c5fedfb45",
   },
   stats: {

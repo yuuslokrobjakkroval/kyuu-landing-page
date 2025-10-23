@@ -1,10 +1,8 @@
 import { type VariantProps } from "class-variance-authority";
 import { ArrowRightIcon } from "lucide-react";
 import { ReactNode } from "react";
-
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
-
 import Github from "../../logos/github";
 import { Badge } from "../../ui/badge";
 import { Button, buttonVariants } from "../../ui/button";
@@ -46,7 +44,7 @@ export default function Hero({
   badge = (
     <Badge variant="outline" className="animate-appear">
       <span className="text-muted-foreground">
-        New version of Launch UI is out!
+        New version of PEACHY is out!
       </span>
       <a href={siteConfig.getStartedUrl} className="flex items-center gap-1">
         Get started
@@ -56,8 +54,8 @@ export default function Hero({
   ),
   buttons = [
     {
-      href: siteConfig.getStartedUrl,
-      text: "Get Started",
+      href: siteConfig.docsUrl,
+      text: "Docs",
       variant: "default",
     },
     {
